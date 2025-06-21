@@ -1,0 +1,125 @@
+.contenedor-testimonio {
+  width: 100%;
+  max-width: 1170px;
+  height: auto;
+  margin: 10px 10px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f6f7;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+}
+
+.imagen-testimonio {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.contenedor-texto-textimonio {
+  width: 100%;
+  padding: 40px;
+  font-size: 18px;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.nombre-testimonio,
+.cargo-testimonio {
+  font-size: 1.3rem;
+}
+
+.cargo-testimonio {
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+
+.texto-testimonio {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+/* Media Queries */
+
+/* Teléfonos pequeños (hasta 575px) */
+@media (min-width: 400.98px) and (max-width: 575px) {
+  .contenedor-testimonio {
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .contenedor-texto-textimonio {
+    flex: 1 1 60%;
+    text-align: center;
+    font-size: 12px;
+    word-wrap: break-word;
+    padding: 10px;
+  }
+
+  .texto-testimonio {
+    font-size: 0.9rem;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  .imagen-testimonio {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+
+/* Tablets (576px a 991px) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+   .contenedor-testimonio {
+    flex-direction: row;
+  }
+
+  .contenedor-texto-textimonio {
+    text-align: center;
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+  .texto-testimonio {
+    font-size: 0.9rem;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  .imagen-testimonio {
+    margin-right: 30px;
+  }
+}
+
+/* Laptops y más (desde 992px en adelante) */
+@media (min-width: 992px) {
+  .contenedor-testimonio {
+    flex-direction: row;
+  }
+
+  .contenedor-texto-textimonio {
+    text-align: center;
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+  .texto-testimonio {
+    font-size: 0.9rem;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  .imagen-testimonio {
+    margin-right: 30px;
+  }
+}

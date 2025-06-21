@@ -1,4 +1,116 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+ }
+
+
+ html, body{
+  font-size: 18px;
+  background-color: #f5f5f7;
+   overflow-x: hidden;
+  box-sizing: border-box;
+
+ }
+
+h1{
+  max-width: 940px;
+  font-size: 2.5em;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+}
+
 .App {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.contenedor-principal {
+  min-height: 600px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+.text-principal{
+  
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+/* Dispositivos muy pequeños (teléfonos pequeños, < 576px) */
+
+/* @media (max-width: 300px) {
+  .App,
+  .contenedor-principal {
+    flex-direction: column;
+    padding: 0.5rem;
+    max-width: 20px;
+  }
+} */
+
+
+@media (max-width: 575.98px) {
+  .App,
+  .contenedor-principal {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+}
+
+/* Teléfonos (≥576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .App,
+  .contenedor-principal {
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
+
+/* Tablets (≥768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .App,
+  .contenedor-principal {
+    flex-direction: row;
+    padding: 1.5rem;
+  }
+}
+
+/* Laptops (≥992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .App,
+  .contenedor-principal {
+    flex-direction: row;
+    padding: 2rem;
+  }
+}
+
+/* Pantallas grandes (≥1200px) */
+@media (min-width: 1200px) {
+  .App,
+  .contenedor-principal {
+    flex-direction: row;
+    padding: 2.5rem;
+  }
+}
+
+.text-principal{
+  text-align: center;
+  display: flex;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +147,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

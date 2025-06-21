@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FraulinNunez/freecode_camp.git/static/css/main.cf851c48.css",
+    "main.js": "/FraulinNunez/freecode_camp.git/static/js/main.d6712264.js",
+    "static/media/emma.png": "/FraulinNunez/freecode_camp.git/static/media/emma.0b86010381ee0ef39c87.png",
+    "static/media/sarah.png": "/FraulinNunez/freecode_camp.git/static/media/sarah.1933780bef4b2195846a.png",
+    "static/media/shawn.png": "/FraulinNunez/freecode_camp.git/static/media/shawn.3ee3643aa84e23e001a4.png",
+    "index.html": "/FraulinNunez/freecode_camp.git/index.html",
+    "main.cf851c48.css.map": "/FraulinNunez/freecode_camp.git/static/css/main.cf851c48.css.map",
+    "main.d6712264.js.map": "/FraulinNunez/freecode_camp.git/static/js/main.d6712264.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf851c48.css",
+    "static/js/main.d6712264.js"
+  ]
+}
